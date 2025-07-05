@@ -1,0 +1,41 @@
+# --- 操作系统文件 ---
+.DS_Store          # macOS 属性文件
+Thumbs.db          # Windows 缩略图缓存
+desktop.ini        # Windows 文件夹配置
+
+# --- 编辑器/IDE 文件 ---
+.idea/             # JetBrains IDE
+.vscode/           # VS Code
+*.suo              # Visual Studio
+*.user
+*.sublime-project
+*.sublime-workspace
+
+# --- 编译文件 ---
+__pycache__/       # Python 字节码缓存
+*.pyc
+*.pyo
+*.pyd
+bin/               # 二进制目录
+obj/               # 对象文件目录
+build/             # 构建目录
+dist/              # 分发目录
+
+# --- 依赖管理 ---
+node_modules/      # Node.js
+venv/              # Python 虚拟环境
+.env               # 环境变量（含敏感信息）
+.env.local
+.env.*.local
+
+# --- 日志文件 ---
+*.log
+logs/
+
+# --- 测试文件 ---
+coverage/          # 测试覆盖率报告
+test-results/      # 单元测试结果
+
+# --- 包管理 ---
+package-lock.json  # (可选，根据项目决定)
+yarn.lock
